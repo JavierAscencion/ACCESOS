@@ -1,0 +1,87 @@
+ÀÄMUX WIEGAND
+   ÃÄMAIN  0/630  Ram=2
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄ@cinit2  (Inline)  Ram=0
+   ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ÃÄwiegand_read_card  1/1526  Ram=5
+   ³  ³  ÃÄ@PSTRINGCN7_115200_62_63  0/86  Ram=5
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ³  ÃÄ@PSTRINGCN7_115200_62_63  0/86  Ram=5
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÃÄ@DIV88  0/23  Ram=3
+   ³  ³  ³  ÀÄ@DIV88  0/23  Ram=3
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ³  ÃÄ@PSTRINGCN7_115200_62_63  0/86  Ram=5
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ³  ÃÄ@PSTRINGCN7_115200_62_63  0/86  Ram=5
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ³  ÃÄ@PSTRINGCN7_115200_62_63  0/86  Ram=5
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PSTRINGCN7_115200_62_63  0/86  Ram=5
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ³  ÃÄ@PSTRINGCN7_115200_62_63  0/86  Ram=5
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_62_63  0/39  Ram=2
+   ³  ³  ÃÄ@PSTRINGCN7_115200_62_63  0/86  Ram=5
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_U_115200_62_63  0/66  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ³  ÀÄ@MEMSET  0/9  Ram=0
+   ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ÃÄ@MEMSET  0/9  Ram=0
+   ³  ÀÄ@MEMSET  0/9  Ram=0
+   ÃÄTIMER1_isr  0/36  Ram=0
+   ÀÄINT_RB_isr  0/248  Ram=2

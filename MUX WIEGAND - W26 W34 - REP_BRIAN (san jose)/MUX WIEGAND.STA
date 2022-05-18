@@ -1,0 +1,68 @@
+
+ROM used:   2823/8192 (34%)
+            3574/8192 (44%) including unused fragments
+
+            0.9 Average locations per line
+            3.2 Average locations per statement
+
+RAM used:   250/368 (68%) at main() level
+            255/368 (69%) worst case
+
+Stack used: 1 worst case (0 in main + 1 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  491   395  45  MUX WIEGAND.c
+  679     0   0  C:\Program Files (x86)\PICC\Devices\16F727.h
+ 1352   359  41  C:\Program Files (x86)\PICC\Drivers\stdlib.h
+   32     0   0  C:\Program Files (x86)\PICC\Drivers\stddef.h
+  435   129  15  C:\Program Files (x86)\PICC\Drivers\string.h
+   28     0   0  C:\Program Files (x86)\PICC\Drivers\ctype.h
+----- -----
+ 3017   883 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     36   1    0    265  3.6  TIMER1_isr
+0    248   9    2   2590  4.9  INT_RB_isr
+0    630  22    2   5514  9.9  MAIN
+0      9   0    0             @MEMSET
+1   1526  54    5  10017  9.4  wiegand_read_card
+0      8   0    0             @const971
+0     86   3    5             @PSTRINGCN7_115200_62_63
+0     39   1    2             @PRINTF_X_115200_62_63
+0     10   0    0             @const977
+0     23   1    3             @DIV88
+0     66   2    2             @PRINTF_U_115200_62_63
+0      8   0    0             @const984
+0     10   0    0             @const985
+0      8   0    0             @const986
+0     10   0    0             @const987
+0      8   0    0             @const988
+0     10   0    0             @const989
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               4
+    Statements              883
+    Comments                1031
+    Volume (V)              21881
+    Difficulty (D)          27.8
+    Effort to implement (E) 608695
+    Time to implement (T)   9 hours, 24 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   69
+    Maintainability (MI)    22
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00057    84  0  
+00058-007FF  1209  751  
+00800-00FFF  1526  522  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

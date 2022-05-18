@@ -1,0 +1,39 @@
+[PROJECT]
+Target=MUX WIEGAND.hex
+Processor_Text=PIC16F727
+CCSVersion=5.091
+Compiler=PCM
+[Target Data]
+FileList=MUX WIEGAND.c
+[MUX WIEGAND.c]
+Type=4
+[mru-list]
+1=MUX WIEGAND.c
+
+[defines]
+buildcount=2
+
+[Opened Files]
+1=MUX WIEGAND.c
+t1=373
+Count=1
+[Units]
+Count=1
+1=MUX WIEGAND (main)
+
+[ProjectLog]
+Days=3
+D1=11-01-2022
+D1_L=1
+D1_L1=[48765]Project Closed.
+D2=24-02-2022
+D2_L=2
+D2_L1=[40375]Project Opened.
+D2_L2=[51901]Project Closed.
+D3=12-04-2022
+D3_L=2
+D3_L1=[49697]Project Opened.
+D3_L2=[51055]Project Closed.
+
+[fileformats]
+forcecoff=0
