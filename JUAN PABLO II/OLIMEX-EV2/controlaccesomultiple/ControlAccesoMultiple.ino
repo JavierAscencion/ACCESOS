@@ -171,6 +171,8 @@ void setup(){
  
   Serial.print("\nConnected to the WiFi network IP ESP32:");
   Serial.println(WiFi.localIP());
+  eth_connected = true;
+ 
 
 ////////////////////////////////socket.io//////////////////////////////////////////////////////
   // setup
@@ -295,6 +297,22 @@ void loop(){
   socketIO.loop();
   serialEventData();
   getDataNube();
+////////////////////////////////////////////////////////////////////////////////////////////
+  if (comando_by_socketio)
+  {
+    Serial.println("COMANDO STATUS:" + comando_by_socketio);
+    
+    if (resultcommand == "RESTART")
+    {
+      Serial.println("Reinicio por software...");
+      socketio_monitor("Reinicio por software...");
+      ESP.restart();
+    }
+    
+
+    comando_by_socketio = 0;
+  }
+///////////////////////////////////////////////////////////////////////////////////////////  
     if( eth_connected == 0 ){  //==1
       if(serialBuffer.isNewMessage){
         Serial.print("RS232: ");
@@ -921,13 +939,13 @@ void WiFiEvent(WiFiEvent_t event){
     case SYSTEM_EVENT_ETH_DISCONNECTED:
       //device[0] = 0;
       Serial.println("ETH Disconnected");
-      eth_connected = false;
+      //eth_connected = false;
       break;
     case SYSTEM_EVENT_ETH_STOP:
       //device[0] = 0;
       Serial.println("ETH Stopped");
       //Serial.println("Se necesita nuevo arranque.");
-      eth_connected = false;
+      //eth_connected = false;
       break;
     default:
       break;

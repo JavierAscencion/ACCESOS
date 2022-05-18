@@ -140,24 +140,3 @@ void socketio_monitor(String mensaje){
     // Send event
     socketIO.sendEVENT(output);
 }
-
-////setup
-//
-//WiFiMulti.addAP(ssid, pass);
-//
-//// setReconnectInterval to 10s, new from v2.5.1 to avoid flooding server. Default is 0.5s
-//  socketIO.setReconnectInterval(10000);
-//
-//  socketIO.setExtraHeaders("Authorization: 1234567890");
-//
-//  // server address, port and URL
-//  // void begin(IPAddress host, uint16_t port, String url = "/socket.io/?EIO=4", String protocol = "arduino");
-//  // To use default EIO=4 from v2.5.1
-//  socketIO.begin(serverIP, serverPort);
-//
-//  // event handler
-//  socketIO.onEvent(socketIOEvent);
-
-
-  //////////loop
-  //socketIO.loop();
